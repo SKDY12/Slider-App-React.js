@@ -1,0 +1,54 @@
+.page{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 100vh;
+background-color: #f2f2f2; /* Example background color */
+}
+.number{
+display: flex;
+gap: 10px;
+margin-bottom: 20px;
+}
+.message{
+margin-bottom: 20px;
+font-size: 24px;
+color: #333333; /* Example color for text */
+}
+.buttons{
+display: flex;
+gap: 10px;
+}
+
+button{
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+background-color: #4ebf11; /* Example color for buttons */
+color: white;
+font-size: 16px;
+cursor: pointer;
+transition: background-color 0.3s;
+}
+
+button:hover{
+background-color: #5d9f42; /* Darker shade for hover effect */
+}
+#p{
+width: 40px;
+height: 40px;
+border-radius: 50%;
+border: 2px solid #4a90e2; /* Circular border color */
+color: #4a90e2; /* Number color */
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 20px;
+font-weight: bold;
+}
+.active{
+background-color: #0e2f01;
+color: white;
+}
+
